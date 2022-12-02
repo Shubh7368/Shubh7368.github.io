@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+
+import Header from "./components/Header";
+
+import Navbar from "./components/Navbar";
+import Profile from "./components/Profile";
+import Footer from "./components/Footer";
+import Skills from "./components/Skills";
+import Projects from "./components/Projects";
+import { useContext } from "react";
+import { ThemeContext } from "./context/ThemeContext";
+import Nav from "./components/Nav";
+// import { Route, Routes } from 'react-router-dom';
 
 function App() {
+  const {isLight} = useContext(ThemeContext)
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={`App ${isLight?"light":"dark"}`}>
+      <Nav />
+
+      <Header />
+      <Profile />
+      <Projects />
+      <Skills />
+      <Footer />
     </div>
   );
 }
