@@ -28,6 +28,10 @@ const Skills = () => {
          <div>
          <img src="node.png" style={{width:"100%"}} className="img-fluid" alt="Responsive image"/>
          </div>
+
+         <div>
+         <img src="next.png.jpeg" style={{width:"100%"}} className="img-fluid" alt="Responsive image"/>
+         </div>
         
          
        </div>
