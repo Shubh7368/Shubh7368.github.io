@@ -17,9 +17,10 @@ function App() {
 
 
   return (
-    <div className={`App ${isLight?"light":"dark"}`}>
+    <div className={`App ${isLight?"light":"dark"}`}  >
+      
       <Nav />
-
+     
       <Header />
       <Profile />
       <Projects />

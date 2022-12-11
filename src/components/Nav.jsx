@@ -17,8 +17,8 @@ const Nav = () => {
         </Link>
         <Link className="a" to="header">Home</Link>
         <Link className="a" to="profile">About</Link>
-        <Link className="a" to="skills">Skills</Link>
-        <Link className="a" to="project">Projects</Link>
+        <Link className="a" to="skills">Projects</Link>
+        <Link className="a" to="project">Skills</Link>
         <Link className="a" to="footer">Contact</Link>
         <Link  to="javascript:void(0);" class="icon" onClick={()=>setClick(!click)}>
           <i class="fa fa-bars"></i>

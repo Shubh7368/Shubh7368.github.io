@@ -4,7 +4,7 @@
   padding: 0;
   color: white;
   font-size: 50px;
-  background: rgb(2, 1, 12);
+  background: rgb(2, 0, 36);
   padding: 0.9rem;
   position: fixed;
   top: 0;
@@ -27,10 +27,10 @@
   cursor: pointer;
 }
 
-/* .topnav a.active {
+.topnav a.active {
   background-color: #04aa6d;
   color: white;
-} */
+}
 
 .topnav .icon {
   display: none;
