@@ -130,25 +130,7 @@ header::before {
   fill: #151bd6;
 }
 @media (min-width: 200px) {
-  /* .header {
-    margin-top: 80px;
-    width:120vw;
-  } */
-  /* .sub_header > h1 {
-    font-size: 3rem;
-    text-shadow: 6px 4px 6px rgba(0, 0, 0, 0.6);
-  }
-  .sub_header > p {
-    font-size: 1rem;
-    text-shadow: 6px 4px 6px rgba(0, 0, 0, 0.6);
-    text-align: center;
-  } */
-  /* .sub_header > div > a {
-    margin: 0.5rem;
-  } */
-  /* .sub_header > div {
-    padding: 0.7rem;
-  } */
+  
 }
 @media (max-width: 600px) {
   .header {
